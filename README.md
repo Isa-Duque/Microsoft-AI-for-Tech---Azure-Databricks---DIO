@@ -39,6 +39,10 @@ Configurar opções de acessibilidade para ter a experiência ideal.​
 
 ![image](https://github.com/user-attachments/assets/5b211222-417a-4007-b5de-16017c1dafbf)
 
+![image](https://github.com/user-attachments/assets/f02df1d1-1ffd-4c1a-bed6-130bd4c3a90d)
+
+
+
 
 
 
