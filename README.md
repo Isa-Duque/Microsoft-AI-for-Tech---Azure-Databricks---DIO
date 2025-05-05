@@ -9,6 +9,7 @@ Justamente por não necessitar da instalação de programas, ou do armazenamento
 
 **TERMINOLOGIA AZURE**
 ​![image](https://github.com/user-attachments/assets/9854aad6-a892-4f37-a833-63538dc37b90)
+
 ![image](https://github.com/user-attachments/assets/1fdb08d5-a226-476f-b9fa-0e23a0909aab)
 
 *CUSTO BENEFÍCIO*
@@ -27,6 +28,21 @@ Criar painéis personalizados para ter uma exibição organizada dos recursos;�
 Configurar opções de acessibilidade para ter a experiência ideal.​
 
 ![image](https://github.com/user-attachments/assets/33495713-7b6c-48ac-a6b6-23187a3ae450)
+
+![image](https://github.com/user-attachments/assets/038cd0d5-eb7a-4d3c-b199-5858adea6a6a)
+
+![image](https://github.com/user-attachments/assets/60ae5410-a2e7-424f-a124-cbf572241781)
+
+**INTRODUÇÃO TIPO DE NUVEM**
+![image](https://github.com/user-attachments/assets/13119e5b-5f94-4da8-95a5-e5b1cb5ab7a2)
+
+
+![image](https://github.com/user-attachments/assets/5b211222-417a-4007-b5de-16017c1dafbf)
+
+
+
+
+
 
 
 
