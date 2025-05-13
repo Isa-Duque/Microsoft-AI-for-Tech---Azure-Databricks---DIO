@@ -43,6 +43,33 @@ Configurar opções de acessibilidade para ter a experiência ideal.​
 
 ![image](https://github.com/user-attachments/assets/e69dd0ea-77ad-4d53-96fa-4f72758b5e2f)
 
+*CRIANDO SUA CONTA - DATABRICKS COMMUNITY*
+
+Acessem:
+https://community.cloud.databricks.com/
+
+Escolha da plataforma - Choose a cloud provider
+Opções AWS, Azure, Google.
+
+No curso foi trabalhado com Azure,
+Aguardar receber o email.
+
+NEW CLUSTER
+![image](https://github.com/user-attachments/assets/fc628fb2-82b7-4d46-941d-c5d9745fdaa8)
+
+LIMITADO DEVIDO A GRATUIDADE.
+
+*CRIANDO SEU PRIMEIRO NOTEBOOK*
+
+![image](https://github.com/user-attachments/assets/88b92601-6651-4dbc-942c-f060c3347cc8)
+
+
+
+
+
+
+
+
 
 
 
