@@ -1,0 +1,107 @@
+PRÁTICAS RECOMENDADAS:
+
+*Use o formato Delta: Para garantir confiabilidade, versionamento e alta performance;
+*Crie clusters otimizados: Defina tamanhos adequados e políticas de desligamento automático;
+*Implemente Workflows: Automatize pipelines e evite intervençoes manuais.
+*Versione notebooks: Integre o Databricks com sistemas como Git;
+* Acompanhe custos: Monitore o uso de clusters para evitar gastos desncessários.
+
+O que é um PIPELINE DE DADOS?
+
+Um pipeline de dados é um conjunto de etapas interconectadas que movem e trasnformam dados de uma ou mais fontes para um destino específico.
+Pense nele como uma linha de produção para dados. Cada etapa do pipeline realiza uma tarefa específica, como:
+Extração (Extraction): Coletar dados de diversas fontes (banco de dados, arquivos, APIs, etc)
+Transformação (Transformation): Limpar, filtrar, agregar, enriquecer e modelar os dados para atender aos requisitos de análise ou consumo. 
+Carregamento (Loading): Persistir os dados transformados em um sistema de destino (data warehouse, data lake, aplicações, etc)
+
+Pipelines de dados são cruciais para automatizar o fluxo de dados, garantir a qualidade dos dados e fornecer informações consistentes e atualizadas 
+para tomadas de decisões, relatórios e análises.
+
+Por que estamos utilizando arquivos Parquet?
+O apache Parquet é um formato de arquivo colunar altamente eficiente para armazenar dados.
+Estamos utilizando arquivos Parquet no contexto do Azure Databricks e Delta Lake por várias razões.
+-Armazenamento colunar,
+-Melhor compressão,
+-Otimizado para Big Data
+-Integração com o ecossitema de big data
+-Suporte a esquemas
+
+O que são Tabelas em Delta?
+
+As Tabelas Delta são tabelas armazenadas no Data Lake (geralmente no Azure Data Lake Storage Gen2) em um formato de arquivo aberto chamado Delta Lake.
+O Delta lake adicona uma camada de armazenamento transacional e confiabilidade ao seu data lake, trazendo recursos de banco de dados tradicionais para o mundo do big data.
+As principais características  das Tabelas Delta incluem:
+- Transações ACID
+-Versionamento de Dados (Time travel)
+-Esquema enforcement e evolução
+Unificação de Batch e Streaming
+-Performance
+
+
+#Data Warehouse DW# 
+
+É uma estrutura centralizada e organizada para análise de dados são tratados, limpos e modelados(normalmente em esquemas como estrela ou floco de neve), 
+com forte governança, qualidade e performance para análises empresariais. 
+
+  
+
+Características: 
+
+Dados altamente estruturados e organizados em tabelas relacionais; 
+
+Modelos dimensionais (star schema e snowflake); 
+
+Processor ETL para ingestão e transformação 
+
+Alta performance para análises OLAP 
+
+Governança e controle rigoroso 
+
+Ideal para relatórios corporativos e dashboards; 
+
+Tecnologias comuns: Pentaho, SSIS (Integration Services), Apache Hop, Talend 
+
+  
+
+https://www.databricks.com/glossary/unified-data-warehouse 
+
+ 
+
+Imagem 
+
+  
+
+#DATA LAKE# 
+
+É um repositório de dados em seu formato bruto e nativo, que aceita múltiplos tipos (estruturados, semi ou não estruturados) 
+
+como arquivos CSV, JSON, Imagens, áudios, etc 
+
+Tem foco na flexibilidade e escalabilidade, mas exige processamento posterior para uso analítico. 
+
+  
+
+CARACTERÍSTICAS: 
+
+-Armazena dados estruturados, semi-estruturados (JSON, XML) e não estruturados (Áudio, vídeo, texto) 
+
+-Suporte e grande volume de dados com baixo custo, 
+
+-Flexível para ingestão de dados em tempo real ou batch, 
+
+-Ideal para Data Science, Machine Learining, e analises exploratórias. 
+
+-Menor controle de qualidade de dados na origem, 
+
+-Requer tratamento posterior para análise 
+
+Tecnologias comuns: Azure Data Lake Gen2, Amazon S3, Google Cloud Storage 
+
+  
+
+#LAKEHOUSE# 
+
+É uma arquitetura que combina o melhor do Data Lake com o Data Warehouse. Ele mantém a escalabilidade de um lake com a estrutura e governança de um DW, 
+usando camadas de dados (Bronze, Silver, Gold) e formatos otimizados como Delta Lake. 
+
+ 
