@@ -1,0 +1,4 @@
+Temos duas formas de configurar o DevOps no azure Data Factory
+1. Configurando o GIT do DevOps na criação do recurso do Data Factory
+
+2.Configurando o DevOps depois de Criado o Data Factory dentro do Studio
